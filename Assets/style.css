@@ -40,6 +40,7 @@ body {
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    text-align: flex;
 }
 
 a {
@@ -144,7 +145,10 @@ p {
     background-color: #0072bb;
     color: #ffffff;
     display: flex;
+    text-align: center;
+    
 }
+
 
 .Work {
     margin-bottom: 20px;
@@ -154,7 +158,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
     display: flex;
-    
+    text-align: center;
 }
 
 .Contact {
@@ -165,7 +169,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
     display: inline-flex;
-
+    
 }
 
 .Resume {
@@ -176,6 +180,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
     display: flex;
+    text-align: flex;
 }
 
 .search-engine-optimization img {
