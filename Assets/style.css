@@ -49,6 +49,7 @@ a {
 
 p {
     font-size: 16px;
+    vertical-align: top;
 }
 
 .hero {
@@ -142,15 +143,17 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    display: flex;
 }
 
 .Work {
     margin-bottom: 20px;
     padding: 50px;
-    height: 200px;
+    height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    display: flex;
     
 }
 
@@ -161,6 +164,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    display: inline-flex;
+
 }
 
 .Resume {
@@ -170,6 +175,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    display: flex;
 }
 
 .search-engine-optimization img {
