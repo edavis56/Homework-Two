@@ -60,8 +60,18 @@ p {
     background-image: url("../assets/me.jpg");
     background-size: cover;
     background-position: center;
+    
 }
-
+.hero p {
+    width: 450px;
+    padding-top: 600px;
+    padding-left: 125px;
+    text-align: left;
+    font-size: 20px;
+    wrap
+    
+    
+}
 .float-left {
     float: left;
     margin-right: 25px;
