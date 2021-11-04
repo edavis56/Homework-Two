@@ -40,7 +40,7 @@ body {
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
-    text-align: flex;
+    
 }
 
 a {
@@ -76,6 +76,7 @@ p {
 
 .content {
     width: 75%;
+    display: inline-block;
     margin-left: 20px;
 }
 
@@ -105,12 +106,12 @@ p {
     color: #ffffff;
 }
 
-.Chiefs h3, h2 {
+.Chiefs h2, h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.Hiking h3 {
+.Hiking  h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -146,8 +147,6 @@ p {
     background-color: #0072bb;
     color: #ffffff;
     display: flex;
-    text-align: center;
-    
 }
 
 .Work {
@@ -158,10 +157,6 @@ p {
     background-color: #0072bb;
     color: #ffffff;
     display: flex;
-    text-align: center;
-    position: right;
-   
-   
 }
 
 .Contact {
@@ -172,8 +167,6 @@ p {
     background-color: #0072bb;
     color: #ffffff;
     display: flex;
-    text-align: center;
-    
 }
 
 .Resume {
@@ -184,8 +177,6 @@ p {
     background-color: #0072bb;
     color: #ffffff;
     display: flex;
-    text-align: center;
-    
 }
 
 .search-engine-optimization img {
