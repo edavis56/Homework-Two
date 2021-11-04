@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-/*Div changed to nav to allow HTML to read the CSS correctly*/
+
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,7 +50,7 @@ a {
 
 p {
     font-size: 16px;
-    vertical-align: top;
+   
 }
 
 .hero {
@@ -65,16 +65,17 @@ p {
 .float-left {
     float: left;
     margin-right: 25px;
+    
 }
 
 .float-right {
     float: right;
     margin-left: 25px;
+    
 }
 
 .content {
     width: 75%;
-    display: inline-block;
     margin-left: 20px;
 }
 
@@ -89,55 +90,55 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.Chiefs{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+.Hiking {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-cost {
+.Smoking {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3, h2 {
+.Chiefs h3, h2 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+.Hiking h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-cost h3 {
+.Smoking h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
+.Chiefs img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+.Hiking img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-cost img {
+.Smoking img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.AboutMe {
+.AboutMe  {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -149,7 +150,6 @@ p {
     
 }
 
-
 .Work {
     margin-bottom: 20px;
     padding: 50px;
@@ -159,6 +159,9 @@ p {
     color: #ffffff;
     display: flex;
     text-align: center;
+    position: right;
+   
+   
 }
 
 .Contact {
@@ -168,7 +171,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-    display: inline-flex;
+    display: flex;
+    text-align: center;
     
 }
 
@@ -180,7 +184,8 @@ p {
     background-color: #0072bb;
     color: #ffffff;
     display: flex;
-    text-align: flex;
+    text-align: center;
+    
 }
 
 .search-engine-optimization img {
