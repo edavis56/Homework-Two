@@ -66,11 +66,13 @@ p {
     float: left;
     margin-right: 25px;
     
+    
 }
 
 .float-right {
     float: right;
     margin-left: 25px;
+    
     
 }
 
@@ -146,7 +148,12 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-    display: flex;
+    
+}
+
+.AboutMe h2, p {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .Work {
@@ -156,7 +163,12 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-    display: flex;
+    
+}
+
+.Work h2, p {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .Contact {
@@ -166,7 +178,12 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-    display: flex;
+    
+}
+
+.Contact h2, p {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .Resume {
@@ -177,6 +194,11 @@ p {
     background-color: #0072bb;
     color: #ffffff;
     display: flex;
+}
+
+.Resume h2, p {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .search-engine-optimization img {
