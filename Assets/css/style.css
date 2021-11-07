@@ -142,9 +142,13 @@ p {
     
 }
 
-.Contact h2, a{
+.Contact h2{
     margin-bottom: 10px;
-    text-align: center;
+    text-align: Center;
+}
+.Contact ul{
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 
