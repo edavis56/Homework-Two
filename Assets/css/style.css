@@ -58,7 +58,14 @@ a {
     visibility: visible;
  
 } 
-
+.a:hover .Contact {
+    visibility: visible;
+ 
+}
+.a:hover .Resume {
+    visibility: visible;
+ 
+}
 p {
     font-size: 16px;
    
@@ -84,8 +91,6 @@ p {
     background-color: #FFB81C;
     color: #ffffff;
 }
-
-
 
 .AboutMe h2, p {
     margin-bottom: 10px;
@@ -116,7 +121,10 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+.Work p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
 
 .Contact {
     visibility: hidden ;
