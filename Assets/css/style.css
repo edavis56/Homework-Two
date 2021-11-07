@@ -50,7 +50,14 @@ a {
     background-color: #FFB81C;
  
 }
-   
+.a:hover .AboutMe {
+    visibility: visible;
+ 
+}   
+.a:hover .Work {
+    visibility: visible;
+ 
+} 
 
 p {
     font-size: 16px;
@@ -65,21 +72,20 @@ p {
 
 .AboutMe {
     visibility: hidden ;
-    width: 120px;
+    width: 300px;
     text-align: center;
     border-radius: 25px;
     position:absolute;
     margin-bottom: 20px;
+    margin-left: 60%;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #ffffff;
+    background-color: #FFB81C;
     color: #ffffff;
 }
 
-.AboutMe:hover {
-    visibility: visible ;
-}
+
 
 .AboutMe h2, p {
     margin-bottom: 10px;
@@ -92,13 +98,18 @@ p {
 }
 
 .Work {
+    visibility: hidden ;
+    width: 300px;
+    text-align: center;
+    border-radius: 25px;
+    position:absolute;
     margin-bottom: 20px;
+    margin-left: 60%;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #FFB81C;
     color: #ffffff;
-    
 }
 
 .Work h2, p {
@@ -108,11 +119,17 @@ p {
 
 
 .Contact {
+    visibility: hidden ;
+    width: 300px;
+    text-align: center;
+    border-radius: 25px;
+    position:absolute;
     margin-bottom: 20px;
+    margin-left: 60%;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #FFB81C;
     color: #ffffff;
     
 }
@@ -124,11 +141,17 @@ p {
 
 
 .Resume {
+    visibility: hidden ;
+    width: 300px;
+    text-align: center;
+    border-radius: 25px;
+    position:absolute;
     margin-bottom: 20px;
+    margin-left: 60%;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #FFB81C;
     color: #ffffff;
     
     
