@@ -7,9 +7,11 @@
 body {
     background-color: #d9dcd6;
     display: flex;
+    height: 100%;
 }
 
 .header {
+    height:155%;
     padding: 20px;
     width: 500px
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -35,54 +37,24 @@ body {
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
-    
 }
 
 a {
+    visibility: visible;
     color: #ffffff;
     text-decoration: none;
+    transition: 1s;
 }
+
+.a:hover {
+    background-color: #FFB81C;
+ 
+}
+   
 
 p {
     font-size: 16px;
    
-}
-
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../assets/images/me.jpg");
-    background-size: cover;
-    background-position: center;
-    
-}
-.hero p {
-    width: 450px;
-    padding-top: 600px;
-    padding-left: 125px;
-    text-align: left;
-    font-size: 20px;
-    wrap
-    
-    
-}
-.float-left {
-    float: left;
-    margin-right: 25px;
-    width: 400px;
-    height: 200px;
-    
-    
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-    width: 400px;
-    height: 200px;
-    
-    
 }
 
 .content {
@@ -91,74 +63,22 @@ p {
     margin-left: 20px;
 }
 
-.Hobbies {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.Chiefs{
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.Hiking {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.Smoking {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.Chiefs h2, h3 {
-    margin-bottom: 10px;
+.AboutMe {
+    visibility: hidden ;
+    width: 120px;
     text-align: center;
-}
-
-.Hiking  h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.Smoking h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.Chiefs img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.Hiking img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.Smoking img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.AboutMe  {
+    border-radius: 25px;
+    position:absolute;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #ffffff;
     color: #ffffff;
-    
-    
+}
+
+.AboutMe:hover {
+    visibility: visible ;
 }
 
 .AboutMe h2, p {
@@ -234,13 +154,6 @@ p {
     font-size: 36px;
 }
 
-.footer {
-    padding: 0px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    ;
-}
 
 .footer h2 {
     font-size: 20px;
@@ -274,7 +187,11 @@ p {
     box-shadow: 2px 4px 8px 3px #AB2330;
 }
 
+photos {
+    margin-top: 50px;
+}
 .polaroidone img {
+
     padding: 15px;
     width: 100%;
     border-radius: 25px 25px 0 0;
@@ -315,7 +232,11 @@ p {
     width: 100%;
     border-radius: 25px 25px 0 0;
     height: 345px;
+    
 }
+
+
+
 
 
 
