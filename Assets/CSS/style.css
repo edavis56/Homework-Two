@@ -1,277 +1,75 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
-}
+    margin: 0;}
 
 body {
-    background-color: #d9dcd6;
-    display: flex;
-    height: 100%;
-}
+    background-color: white;
+    height: 100%;}
 
 .header {
-    height:155%;
     padding: 20px;
-    width: 500px
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #AB2330;
-    color: #FFB81C;
-    font-style: italic;
-}
+    color: #689f38;}
 
 .header h1 {
-    display: flex;
+    margin: 100px;
+    margin-bottom: 2px;
+    margin-left: 150px;
     font-size: 48px;
-
-}
+    font-style: italic;}
 
 .header nav {
     padding-top: 15px;
-    float: inherit;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    width: 100px;
-}
+    width: 1000px;}
 
 .header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
+    margin-top: 5px;
+    margin-left: 2px;
+    text-align: left;
+    margin-bottom: 20px;}
 
 a {
+    margin-left: 150px;
+    margin-bottom: 2px;
     visibility: visible;
-    color: #ffffff;
+    color:#689f38;
     text-decoration: none;
-    transition: 1s;
-}
-
+    transition: 1s;}
+    
 .a:hover {
-    background-color: #FFB81C;
- 
-}
-.a:hover .AboutMe {
-    visibility: visible;
- 
-}   
-.a:hover .Work {
-    visibility: visible;
- 
-} 
-.a:hover .Contact {
-    visibility: visible;
- 
-}
-.a:hover .Resume {
-    visibility: visible;
- 
-}
+    background-color: #689f38;
+    Color:black}
+
 p {
     font-size: 16px;
+    margin-left: 130px;
+    margin-right: 130px;
+    padding-right: 130px;
+    color: black;}
+    
+
+article a {
+    margin-left: 50px;}
+
+.mytext {
+    color: black;
+    margin-left: 5px;
+    inline-size: 150px;
+    overflow-wrap: break-word;}
+
+ul .li{
+    font-size: 16px;
+    margin-left: 195px;
+    margin-right: 130px;
+    padding-right: 130px;
+    color: black;}
+
+img{
+    margin-top: 20px;
+    margin-left: 30px;}
+    
+    
    
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.AboutMe {
-    visibility: hidden ;
-    width: 300px;
-    text-align: center;
-    border-radius: 25px;
-    position:absolute;
-    margin-bottom: 20px;
-    margin-left: 60%;
-    padding: 50px;
-    height: 500px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #FFB81C;
-    color: #ffffff;
-}
-
-.AboutMe h2, p {
-    margin-bottom: 10px;
-    text-align: center;
-    
-}
-.AboutMe p {
-    margin-bottom: 10px;
-    text-align: justify;
-}
-
-.Work {
-    visibility: hidden ;
-    width: 300px;
-    text-align: center;
-    border-radius: 25px;
-    position:absolute;
-    margin-bottom: 20px;
-    margin-left: 60%;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #FFB81C;
-    color: #ffffff;
-}
-
-.Work h2, p {
-    margin-bottom: 10px;
-    text-align: center;
-}
-.Work p {
-    margin-bottom: 10px;
-    text-align: justify;
-}
-
-.Contact {
-    visibility: hidden ;
-    width: 300px;
-    text-align: center;
-    border-radius: 25px;
-    position:absolute;
-    margin-bottom: 20px;
-    margin-left: 60%;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #FFB81C;
-    color: #ffffff;
-    
-}
-
-.Contact h2{
-    margin-bottom: 10px;
-    text-align: Center;
-}
-.Contact ul{
-    margin-bottom: 10px;
-    text-align: left;
-}
-
-
-.Resume {
-    visibility: hidden ;
-    width: 300px;
-    text-align: center;
-    border-radius: 25px;
-    position:absolute;
-    margin-bottom: 20px;
-    margin-left: 60%;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #FFB81C;
-    color: #ffffff;
-    
-    
-}
-
-.Resume h2, p, li{
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-
-.footer h2 {
-    font-size: 20px;
-    
-}
-
-.LinkedIn{
-    margin-right: 25px;
-    width: 50px;
-    height: 50px;
-    align-content: center;
-    
-    
-}
-
-.PDF{
-    margin-right: 25px;
-    width: 50px;
-    height: 50px;
-    align-content: center;
-}
-
-.polaroidone {
-    height: auto;
-    width: auto;
-    margin-left: 50px;
-    margin-bottom: 20px;
-    transform: rotate(15deg);
-    background-color: white;
-    border-radius: 25px;
-    box-shadow: 2px 4px 8px 3px #AB2330;
-}
-
-photos {
-    margin-top: 50px;
-}
-.polaroidone img {
-
-    padding: 15px;
-    width: 100%;
-    border-radius: 25px 25px 0 0;
-    height: 345px;
-}
-
-.polaroidtwo {
-    height: auto;
-    width: auto;
-    margin-left: 50px;
-    margin-bottom: 20px;
-    transform: rotate(-15deg);
-    background-color: white;
-    border-radius: 25px;
-    box-shadow: 2px 4px 8px 3px #AB2330;
-}
-
-.polaroidtwo img {
-    padding: 15px;
-    width: 100%;
-    border-radius: 25px 25px 0 0;
-    height: 345px;
-}
-
-.polaroidthree {
-    height: auto;
-    width: auto;
-    margin-left: 50px;
-    margin-bottom: 20px;
-    transform: rotate(15deg);
-    background-color: white;
-    border-radius: 25px;
-    box-shadow: 2px 4px 8px 3px #AB2330;
-}
-
-.polaroidthree img {
-    padding: 15px;
-    width: 100%;
-    border-radius: 25px 25px 0 0;
-    height: 345px;
-    
-}
-
-
-
-
-
-
