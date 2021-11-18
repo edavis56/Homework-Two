@@ -21,4 +21,8 @@ CODE HERE
 
 Criteria Two calls for the naviagtion to scroll to that section. I took it a bit further and made each section it's own HTML page. At the root, this process equtes to the samething. See the code below.
 
+![](/assets/images/CriteriaTwoPrompt.JPG)
+
+Below is the HTML code. 
+
 ![](/assets/images/CriteriaTwo.JPG)
