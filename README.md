@@ -35,5 +35,11 @@ HTML code for link to protfolio section.
 
 ![](/assets/images/CriteriaThreeHTML.JPG)
 
+Criteria Six requires that the webpage be responsive.
 
+![](/assets/images/CriteriaSix.JPG)
+
+This was done in the meta-data with the head section of the HTML code. See below. 
+
+![](/assets/images/Responsive.JPG)
 (Please note that I set the webpage up in a simplistic style. This was done intentionally.)
