@@ -26,3 +26,11 @@ Criteria Two calls for the naviagtion to scroll to that section. I took it a bit
 Below is the HTML code. 
 
 ![](/assets/images/CriteriaTwo.JPG)
+
+Criteria Three is met with the below HTML code. This is very similar to Criteria Two, except it is specifically tageting the portfolio section. Also, the portfolio section had been setup with titled iamges per the prompt. 
+
+![](/assets/images/CriteriaThree.JPG)
+
+HTML code for link to protfolio section. 
+
+![](/assets/images/CriteriaThreeHTML.JPG)
