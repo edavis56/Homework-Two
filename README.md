@@ -34,3 +34,6 @@ Criteria Three is met with the below HTML code. This is very similar to Criteria
 HTML code for link to protfolio section. 
 
 ![](/assets/images/CriteriaThreeHTML.JPG)
+
+
+(Please note that I set the webpage up in a simplistic style. This was done intentionally.)
